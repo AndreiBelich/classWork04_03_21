@@ -1,0 +1,26 @@
+Для тог что бы задать контейнер Flex`ом для него нужно задать свщйство display: Flex
+
+Правила для флекс-контейнера:
+  - flex-direction - задает направление для главной оси, доступные значения:
+                     row -
+                     column
+                     row-reverse
+                     column-reverse
+  - justify-content - вырвнивает элементы по главной оси, доступные значения:
+                    flex-start
+                    flex-end
+                    center
+                    space-between
+                    space-around
+                    space-evenly
+  - align-items - выравнивает элементы по побочной оси, доступные значения:
+                    flex-start
+                    flex-end
+                    center
+                    stretch
+  - flex-wrap   -  переносит элементы когда им не хватает места, доступные значения:
+                   nowrap
+                   wrap
+                   wrap-reverse
+
+  
