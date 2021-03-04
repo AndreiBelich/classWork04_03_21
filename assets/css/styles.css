@@ -5,11 +5,12 @@
 .flex-container{
   border: 10px solid lime;
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-  height: 50vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+  padding: 20px;
+  height: 80vh;
 }
 
 .flex-item{
@@ -20,6 +21,11 @@
   font-family: sans-serif;
   padding: 10px 5px;
   text-align: center;
+}
+
+a.flex-item{
+
+  padding: 30px;
 }
 
 .item-stretch{
